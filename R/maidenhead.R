@@ -1,11 +1,21 @@
+#' Return Latitude and Longitude from 6 digit Maidenhead Grid
+#'
+#' @param x A character vector with one element that is a valid Maidenhead Grid.
+#'
+#' @return A numeric vector of latitude and longitude.
+#' @export
+#'
+#' @examples
+#' x <- "EM83aw"
+#' maidenhead(x)
 
-IronMaiden = function(x) {
+maidenhead = function(x) {
   
   # check for non bogus maidenhead.
   # EM83aw = OK
   
   stopifnot(stringr::str_detect(x, "^[A-Ra-r]{2}\\d{2}(\\d{2})?([A-Xa-x]{2})?$")) 
-
+  
   lonfield <- stringr::str_extract(x, "^[A-Ra-r]")
   latfield <- stringr::str_extract(x, "(?<=^.)[A-Ra-r]")
   lonsquare <- stringr::str_extract(x, "(?<=^[A-Ra-r]{2})\\d{1}")

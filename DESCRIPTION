@@ -1,0 +1,18 @@
+Package: potaplan
+Title: Help Hams Plan Their Pota Trips
+Version: 0.0.0.9000
+Authors@R: 
+    person("James", "Durant", , "	yojimbodurant@gmail.com", role = c("aut", "cre"))
+Maintainer: James Durant <yojimbodurant@gmail.com>
+Description: This package takes geospatial class inputs and querries the Parks 
+    on The Air API for sites that are within the geometry and sorts by distance.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    httr,
+    jsonlite,
+    sf,
+    stringr
