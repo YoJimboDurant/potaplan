@@ -1,8 +1,3 @@
----
-title: "README"
-output: html_document
-date: "2025-03-22"
----
 # potaplan
 R package for querying Parks on the Air API
 
