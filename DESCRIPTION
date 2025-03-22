@@ -14,5 +14,10 @@ Imports:
     dplyr,
     httr,
     jsonlite,
+    leaflet,
     sf,
     stringr
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

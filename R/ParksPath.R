@@ -33,5 +33,5 @@ ParksPath = function(route, buffer = 5){
     dplyr::arrange(distance_km) |>
     dplyr::select(properties.reference, properties.name, distance_km)
   
-  return(parks_filtered)
+  return(list(parks_filtered = parks_filtered, buffer = buffer))
 }

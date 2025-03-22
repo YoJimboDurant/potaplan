@@ -1,0 +1,96 @@
+---
+title: "potaplan"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{potaplan}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(potaplan)
+library(leaflet)
+library(dplyr)
+```
+
+
+# Finding Parks within a Distance of Point
+To find Parks within 100 km of your coordinates:
+
+```{r}
+
+myparks <- ParksRad("EM83aw")
+myparks$parks_filtered
+
+```
+
+To make a map (using leaflet):
+```{r}
+leaflet(width = 700) %>%
+  addProviderTiles(providers$OpenStreetMap) %>%
+  addCircleMarkers(
+    data = myparks$parks_filtered,
+    color = "blue",
+    radius = 5,
+    popup = ~ properties.name
+  ) %>%
+  addPolygons(
+    data = myparks$circleDist,
+    color = "red",
+    weight = 2,
+    fill = FALSE
+  )
+
+```
+
+
+
+
+To export to Google Earth, mymaps.google.com, or other GIS you can write as KML:
+
+```{r}
+library(sf)
+myparks$parks_filtered |>
+  transmute(name =properties.name,  description = properties.name, distance_km) |>
+  st_write("~/potaparks.kml", delete_layer = T)
+
+```
+
+# Find Parks Along a Path
+
+You can export a route as a KML file, you can upload it and use the potaplan to identify parks within a distance of your route. The potaplan package comes with predefined route as a kml, but you can use `st_read` to read any kml file with 2 points and a path. 
+
+```{r, message=F, warning = FALSE}
+myroute <- sf::st_read(system.file("extdata", "directions.kml", package = "potaplan"))
+myroute
+
+trip_parks <- ParksPath(myroute)
+trip_parks$parks_filtered
+```
+
+To make a map (using leaflet):
+```{r}
+
+leaflet(width = 700) %>%
+  addProviderTiles(providers$OpenStreetMap) %>%
+  addPolygons(
+    data = trip_parks$buffer,
+    color = "red",
+    weight = 2,
+    fill = FALSE
+  ) %>%
+  addCircleMarkers(
+    data = trip_parks$parks_filtered,
+    color = "blue",
+    radius = 5,
+    popup = ~ properties.name
+  )
+```
+

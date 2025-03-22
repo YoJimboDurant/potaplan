@@ -42,5 +42,5 @@ ParksRad = function(x, buffer = 100){
     dplyr::arrange(distance_km) |>
     dplyr::select(properties.reference, properties.name, distance_km)
   
-  return(parks_filtered)
+  return(list(parks_filtered = parks_filtered, circleDist = circleDist))
 }

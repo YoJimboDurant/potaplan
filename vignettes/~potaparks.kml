@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="_potaparks" id="_potaparks">
+	<SimpleField name="properties.reference" type="string"></SimpleField>
+	<SimpleField name="properties.name" type="string"></SimpleField>
+	<SimpleField name="distance_km" type="float"></SimpleField>
+</Schema>
+<Folder><name>_potaparks</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-9799</SimpleData>
+		<SimpleData name="properties.name">Stone Mountain (GA) State Park</SimpleData>
+		<SimpleData name="distance_km">18.2691759114491</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.1458,33.8056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-0662</SimpleData>
+		<SimpleData name="properties.name">Chattahoochee River National Recreation Area</SimpleData>
+		<SimpleData name="distance_km">24.768656257647</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.2491,33.9999</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-2177</SimpleData>
+		<SimpleData name="properties.name">Fort Yargo State Park</SimpleData>
+		<SimpleData name="distance_km">25.3091335672978</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.7367,33.9807</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7860</SimpleData>
+		<SimpleData name="properties.name">Buford Trout Hatchery State Fish Hatchery</SimpleData>
+		<SimpleData name="distance_km">26.1341942923467</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.0923,34.1389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7139</SimpleData>
+		<SimpleData name="properties.name">Arabia Mountain National Heritage Area</SimpleData>
+		<SimpleData name="distance_km">29.1965355130661</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.1159,33.6724</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-2193</SimpleData>
+		<SimpleData name="properties.name">Panola Mountain State Park</SimpleData>
+		<SimpleData name="distance_km">36.0987613973789</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.1715,33.625</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-0846</SimpleData>
+		<SimpleData name="properties.name">Martin Luther King Jr. National Historic Site</SimpleData>
+		<SimpleData name="distance_km">38.8109246092494</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.3736,33.7569</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-9798</SimpleData>
+		<SimpleData name="properties.name">Centennial Olympic State Park</SimpleData>
+		<SimpleData name="distance_km">40.2456011486042</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.3931,33.7605</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7902</SimpleData>
+		<SimpleData name="properties.name">Walton Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">44.0128651967943</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.6781,33.625</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-2184</SimpleData>
+		<SimpleData name="properties.name">Hard Labor Creek State Park</SimpleData>
+		<SimpleData name="distance_km">45.7584784583815</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.6061,33.6673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-0711</SimpleData>
+		<SimpleData name="properties.name">Kennesaw Mountain National Battlefield</SimpleData>
+		<SimpleData name="distance_km">53.8523117242999</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.5781,33.9844</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7838</SimpleData>
+		<SimpleData name="properties.name">Gaither Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">53.9326290522851</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.797,33.462</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7454</SimpleData>
+		<SimpleData name="properties.name">McGraw Ford Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">55.4488926825069</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.349,34.3231</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7141</SimpleData>
+		<SimpleData name="properties.name">Clybel Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">55.7384063418239</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.7287,33.4691</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7140</SimpleData>
+		<SimpleData name="properties.name">Charlie Elliot Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">56.0695527055781</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.7367,33.4625</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-2171</SimpleData>
+		<SimpleData name="properties.name">Don Carter State Park</SimpleData>
+		<SimpleData name="distance_km">57.5445733309994</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.7491,34.3907</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7467</SimpleData>
+		<SimpleData name="properties.name">Marben State Fishing Lake</SimpleData>
+		<SimpleData name="distance_km">57.9808323467006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.7367,33.4435</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-4650</SimpleData>
+		<SimpleData name="properties.name">Dawson State Forest</SimpleData>
+		<SimpleData name="distance_km">58.5185911031528</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.208,34.414</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-3743</SimpleData>
+		<SimpleData name="properties.name">Dawson Forest Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">59.8815771444684</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.2114,34.426</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7448</SimpleData>
+		<SimpleData name="properties.name">Lula Bridge Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">61.5251950229097</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.7084,34.4146</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-2201</SimpleData>
+		<SimpleData name="properties.name">Sweetwater Creek State Park</SimpleData>
+		<SimpleData name="distance_km">61.7670140764151</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.6395,33.7542</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-3777</SimpleData>
+		<SimpleData name="properties.name">Wilson Shoals Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">65.549749217814</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.5965,34.4025</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7456</SimpleData>
+		<SimpleData name="properties.name">Dahlonega Gold Museum State Historic Site</SimpleData>
+		<SimpleData name="distance_km">68.5139555207928</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.9849,34.5327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7471</SimpleData>
+		<SimpleData name="properties.name">Allatoona Pass Battlefield State Historic Site</SimpleData>
+		<SimpleData name="distance_km">69.4502113228535</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.715,34.1138</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-2194</SimpleData>
+		<SimpleData name="properties.name">Red Top Mountain State Park</SimpleData>
+		<SimpleData name="distance_km">69.8085736491157</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.7043,34.1479</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-3723</SimpleData>
+		<SimpleData name="properties.name">Pickett's Mill Battlefield State Historic Site</SimpleData>
+		<SimpleData name="distance_km">70.3120217413384</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.7591,33.974</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7453</SimpleData>
+		<SimpleData name="properties.name">Allatoona Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">71.7449015370131</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.6893,34.2171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7142</SimpleData>
+		<SimpleData name="properties.name">Redlands Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">72.161564803959</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.2726,33.6805</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-2186</SimpleData>
+		<SimpleData name="properties.name">Indian Springs State Park</SimpleData>
+		<SimpleData name="distance_km">74.7494806845621</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.9205,33.2477</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-3731</SimpleData>
+		<SimpleData name="properties.name">B F Grant Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">74.9092193364604</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.4916,33.3925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-2166</SimpleData>
+		<SimpleData name="properties.name">Amicalola Falls State Park</SimpleData>
+		<SimpleData name="distance_km">75.8393735836525</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.2436,34.5683</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-3715</SimpleData>
+		<SimpleData name="properties.name">Etowah Indian Mounds State Historic Site</SimpleData>
+		<SimpleData name="distance_km">78.0063015073374</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.8071,34.128</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7449</SimpleData>
+		<SimpleData name="properties.name">Buck Shoals Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">78.9808112561757</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.6348,34.5596</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-4556</SimpleData>
+		<SimpleData name="properties.name">Appalachian Trail National Scenic Trail</SimpleData>
+		<SimpleData name="distance_km">80.9335879497014</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.1937,34.6267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-2185</SimpleData>
+		<SimpleData name="properties.name">High Falls State Park</SimpleData>
+		<SimpleData name="distance_km">81.657311053844</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.0141,33.1824</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-4473</SimpleData>
+		<SimpleData name="properties.name">Chattahoochee-Oconee National Forest</SimpleData>
+		<SimpleData name="distance_km">83.2029071569277</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.9833,34.6648</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7135</SimpleData>
+		<SimpleData name="properties.name">Blue Ridge Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">84.331326740394</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.1791,34.6605</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7904</SimpleData>
+		<SimpleData name="properties.name">Broad River Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">84.4018975000795</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.1438,34.1867</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7895</SimpleData>
+		<SimpleData name="properties.name">Sheffield Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">84.4178513155966</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.9062,34.0242</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-2207</SimpleData>
+		<SimpleData name="properties.name">Watson Mill Bridge State Park</SimpleData>
+		<SimpleData name="distance_km">86.3090897605417</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.0734,34.0261</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7473</SimpleData>
+		<SimpleData name="properties.name">DeSoto Falls National Recreation Area</SimpleData>
+		<SimpleData name="distance_km">88.0619403508645</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.9149,34.7055</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-3738</SimpleData>
+		<SimpleData name="properties.name">Cedar Creek Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">88.2408738183447</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.5238,33.2294</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-2205</SimpleData>
+		<SimpleData name="properties.name">Victoria Bryant State Park</SimpleData>
+		<SimpleData name="distance_km">88.3794239770084</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.1598,34.3011</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7455</SimpleData>
+		<SimpleData name="properties.name">Lake Russell Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">88.3875930742007</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.4144,34.5471</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-2199</SimpleData>
+		<SimpleData name="properties.name">Smithgall Woods State Park</SimpleData>
+		<SimpleData name="distance_km">88.7554445531428</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.7694,34.6918</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-4653</SimpleData>
+		<SimpleData name="properties.name">Paulding Forest Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">88.8750970065738</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.9594,33.991</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7138</SimpleData>
+		<SimpleData name="properties.name">Chestatee Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">89.0448363230919</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.9195,34.7147</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-3718</SimpleData>
+		<SimpleData name="properties.name">Hardman Farm State Historic Site</SimpleData>
+		<SimpleData name="distance_km">89.5380046084796</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.7083,34.685</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-2204</SimpleData>
+		<SimpleData name="properties.name">Unicoi State Park</SimpleData>
+		<SimpleData name="distance_km">93.1713925394365</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.7224,34.7226</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7447</SimpleData>
+		<SimpleData name="properties.name">Chattahoochee Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">94.0406347200493</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.7743,34.7416</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-0264</SimpleData>
+		<SimpleData name="properties.name">Piedmont National Wildlife Refuge</SimpleData>
+		<SimpleData name="distance_km">94.3996145974736</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.679,33.111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-2206</SimpleData>
+		<SimpleData name="properties.name">Vogel State Park</SimpleData>
+		<SimpleData name="distance_km">94.8398801692371</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.9197,34.767</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7137</SimpleData>
+		<SimpleData name="properties.name">Cooper's Creek Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">95.1477201855459</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.0681,34.7705</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7899</SimpleData>
+		<SimpleData name="properties.name">Carter's Lake Wildlife Management Area</SimpleData>
+		<SimpleData name="distance_km">99.5709061950883</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-84.6796,34.6141</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-7858</SimpleData>
+		<SimpleData name="properties.name">Dames Ferry Campground State Park</SimpleData>
+		<SimpleData name="distance_km">99.5825924638433</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.7577,33.0442</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-3720</SimpleData>
+		<SimpleData name="properties.name">Jarrell Plantation State Historic Site</SimpleData>
+		<SimpleData name="distance_km">99.8062800868769</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.72,33.05</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#_potaparks">
+		<SimpleData name="properties.reference">US-4649</SimpleData>
+		<SimpleData name="properties.name">Hitchiti State Forest</SimpleData>
+		<SimpleData name="distance_km">99.9377443617919</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-83.7146,33.05</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
