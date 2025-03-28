@@ -2,5 +2,7 @@
 
 export(ParksPath)
 export(ParksRad)
+export(activatorGet)
+export(getParkHist)
 export(getParks)
 export(maidenhead)
