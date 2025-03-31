@@ -10,63 +10,45 @@
 library(shiny)
 library(leaflet)
 library(potaplan)
+library(DT)
 
 
 r_colors <- rgb(t(col2rgb(colors()) / 255))
 names(r_colors) <- colors()
-# hamcall <- "KE4MKG"
-# 
-# parksRefs <- "US-2177"
-# distance <- 100
-# grid = "EM83aw"
-# 
-# dfx <- ParksRad(grid, distance)
-# 
-# activity_dfx <-
-#   lapply(parksRefs, function(x) getWorkCount(hamcall, x)) |>
-#   dplyr::bind_rows()
-# 
-# activity_dfx <- activity_dfx |> dplyr::rowwise() |>
-#   dplyr::mutate(total = cw + data + phone,
-#                 activated = activations > 0)
-# 
-# dfx$parks_filtered <- merge(dfx$parks_filtered, activity_dfx)
 
-
-#map <- potaplanner_radius(hamcall = "KE4MKG", grid = "EM83aw", distance = 100)
-  
 # Define UI for application that draws a histogram
-ui <- fluidPage(
-
-    # Application title
-    titlePanel("Pota Planner"),
-
+ui <- fluidPage(# Application title
+  titlePanel("Pota Planner - Parks within Radius"),
+  
+  
+  sidebarLayout(
+    sidebarPanel(
+      h4("Instructions"),
+      helpText("1. Enter your callsign and Maidenhead grid location."),
+      helpText("2. Set the search radius in kilometers."),
+      helpText("3. Click 'Get Parks' to find POTA locations."),
+      helpText("4. View results on the map and in the table. Clicking on map dots will show park and total activations. Red indicates park is not activated by call sign. You can sort the table using arrow controls at top of columns."),
+      helpText("5. Click 'Download CSV' to save the data."),
+      hr(),
+      sliderInput(
+        "radius",
+        "Radius of search (km):",
+        min = 10,
+        max = 200,
+        value = 50
+      ),
+      textInput("call", "Callsign:", value = "KE4MKG"),
+      textInput("maidenhead", "Maidenhead (up to 6 digits):", value = "EM83aw"),
+      actionButton("recalc", "Get Parks"),
+      hr(),
+      downloadButton("downloadData", "Download CSV")
+      
+      
+    ),
     
-    sidebarLayout(
-        sidebarPanel(
-            sliderInput("radius",
-                        "Radius of search:",
-                        min = 1,
-                        max = 500,
-                        value = 100),
-            textInput("call",
-                        "Callsign:",
-                        value = "KE4MKG"),
-            textInput("maidenhead",
-                      "Maidenhead (up to 6 digits):",
-                      value = "EM83aw"),
-            actionButton("recalc", "New points")
-            
-        ),
-
-        # Show a plot of the generated distribution
-        mainPanel(
-           plotOutput("distPlot"),
-           p(),
-           leafletOutput("mymap")
-        )
-    )
-)
+    # Show a plot of the generated distribution
+    mainPanel(leafletOutput("mymap"), DTOutput('tbl'))
+  ))
 
 # Define server logic required to draw a histogram
 server <- function(input, output) {
@@ -101,6 +83,7 @@ server <- function(input, output) {
 
   output$mymap <- renderLeaflet({
     dfx1 <- dfx()
+    
     #browser()
     leaflet::leaflet(width = 700) |>
       leaflet::addProviderTiles("OpenStreetMap.Mapnik") |>
@@ -120,6 +103,30 @@ server <- function(input, output) {
       ) 
       
   })
+
+  output$tbl = renderDT({
+    dfx1 <- dfx()
+    
+    dfx1$distance_km <-signif(dfx1$distance_km,3)
+    dfx2 <- as.data.frame(dfx1)[,!names(dfx1) == "geometry"]
+    datatable(dfx2, options = list(lengthChange = TRUE))
+  })
+  
+  
+  output$downloadData <- downloadHandler(
+    filename = function() {
+      paste("ParksData-", Sys.Date(), ".csv", sep="")
+    },
+    content = function(file) {
+      dfx1 <- dfx()
+      dfx1$distance_km <- signif(dfx1$distance_km, 3)
+      dfx2 <- as.data.frame(dfx1)[,!names(dfx1) == "geometry"]
+      write.csv(dfx2, file, row.names = FALSE)
+    }
+  )
+  
+  
+  
   
   
 }
