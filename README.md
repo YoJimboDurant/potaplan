@@ -3,7 +3,7 @@ R package for querying Parks on the Air API
 
 To install:
 
-`devtools::install_git("YoJimboDurant/potaplan")`
+`devtools::install_git("https://github.com/YoJimboDurant/potaplan")`
 
 # Example of usage
 ```{r setup}
