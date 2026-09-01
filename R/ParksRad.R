@@ -17,7 +17,7 @@ ParksRad = function(x, buffer = 100){
     yx <- maidenhead(x)
     
   }else{
-    if (class(x) == numeric && length(x) == 2){
+    if (class(x) == "numeric" && length(x) == 2){
       yx <-x 
     }
   }
